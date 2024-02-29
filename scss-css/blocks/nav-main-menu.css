@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  text-decoration: none;
+  display: block;
+  /*включает padding*/
+  padding: 20px 20px;
+  /*расстояние между словами*/
+  /*position: relative;*/
+}
+
+.menu-link-active {
+  border-bottom: 3px solid #ef5b70;
+}
+
+.img-mega-menu {
+  width: 255px;
+  height: 118px;
+  background-color: #efefef;
+}
+
+.mega-menu {
+  width: 846px;
+  height: 310px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: -17px;
+  margin-top: -10px;
+  transform: scale(0, 0);
+  transform-origin: left top;
+  transition: 0.5s;
+}
+
+.menu-list:hover:nth-of-type(2) .mega-menu {
+  transform: scale(1, 1);
+}
+
+.menu-list:hover:nth-of-type(3) .mega-menu {
+  transform: scale(1, 1) translateX(-74px);
+}
+
+.menu-list:hover:nth-of-type(4) .mega-menu {
+  transform: scale(1, 1) translateX(-172px);
+}
+
+.menu-list:hover:nth-of-type(5) .mega-menu {
+  transform: scale(1, 1) translateX(-242px);
+}
+
+.menu-list:hover:nth-of-type(6) .mega-menu {
+  transform: scale(1, 1) translateX(-376px);
+}
+
+.menu-list:hover:nth-of-type(7) .mega-menu {
+  transform: scale(1, 1) translateX(-486px);
+}
+
+.drop-mega-menu {
+  margin-left: 20px;
+}/*# sourceMappingURL=nav-main-menu.css.map */
