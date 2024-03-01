@@ -1,773 +1,1110 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BRAND-Checkout</title>
-        <link rel="stylesheet" href="scss-css/style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/b31c835f0d.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <header class="header">
-            <div class="container header-container">
-                <div class="header-logo">
-                    <a class="logo-link" href="index.html">
-                        <img class="logo-img" src="img/logo.png" alt="logo">
-                        BRAN<span class="pink">D</span>
-                    </a>
-                </div>
-                <section class="header-browse-search">
-                    <h2 class="hidden">section header browse search</h2>
-                    <section class="browse">
-                        <h2 class="hidden">section browse</h2>
-                        <div class="browse-btn">
-                            Browse<span><i class="fas fa-caret-down"></i></span>
-                            <div class="drop-down"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                    <li><a href="#" class="drop-menu-link">Bags/Purses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Swimwear/Underwear</a></li>
-                                    <li><a href="#" class="drop-menu-link">Nightwear</a></li>
-                                    <li><a href="#" class="drop-menu-link">Shoes</a></li>
-                                    <li><a href="#" class="drop-menu-link">Beauty</a></li>
-                                </ol>
-                                <h3 class="drop-title">Men</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Tees/Tank</a></li>
-                                    <li><a href="#" class="drop-menu-link">tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Shirts/Polos </a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweatshirts/Hoodies</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/vests</a></li>
-                                </ol>
-                            </div>
-                        </div>    
-                    </section> 
-                    <section class="header-search">
-                            <h2 class="hidden">section header search</h2>       
-                            <form action="#" class="search">
-                            <input class="search-field" type="text" placeholder="Search for Item...">
-                            <button class="search-btn"><img src="img/search.png" alt="search"></button>
-                            </form>
-                    </section>
-                </section>
-                <section class="login">
-                        <h2 class="hidden">section login</h2>
-                        <div class="header-href-cart">
-                            <a href="shopping-cart.html" class="header-href-cart-img"><img src="img/cart.png" alt="cart"></a>
-                            <button type="button" class="in-cart"><span class="in-cart-number">5</span></button>
-                         </div>
-                </section>    
-                <section class="account">
-                    <h2 class="hidden">section account</h2>
-                    <span class="account-text">My Account</span><i class="fas1 fas fa-caret-down"></i>
-                    <div class="header-cart-product">
-                        <div class="cart-product">
-                                <div class="header-cart">
-                                    <a href="#"><img src="img/header_cart1.jpg" alt="header-cart" class="img-header-cart"></a>
-                                    <div class="header-cart-shopping">
-                                        <h3 class="header-cart-product-name">Rebox Zane</h3>
-                                            <div class="header-fas-fa-start">
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star-half-alt star"></i>
-                                            </div>
-                                        <p class="header-cart-text-pink">1<span class="span-p"> x </span>$250</p>
-                                    </div>
-                                    <button class="header-cart-btn"><span class="span-delete-cart"><i class="fa fa-times-circle"></i></span></button>
-                                </div>
-                                <div class="header-cart">
-                                    <a href="#"><img src="img/header_cart2.png" alt="header-cart2" class="img-header-cart"></a>
-                                    <div class="header-cart-shopping">
-                                        <h3 class="header-cart-product-name">Rebox Zane</h3>
-                                            <div class="header-fas-fa-start">
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star star"></i>
-                                                    <i class="fas fa-star-half-alt star"></i>
-                                            </div>
-                                        <p class="header-cart-text-pink">1<span class="span-p"> x </span>$250</p>
-                                    </div>
-                                    <button class="header-cart-btn"><span class="span-delete-cart"><i class="fa fa-times-circle"></i></span></button>
-                                </div>
-                                <div class="header-cart-total">
-                                    <p class="header-cart-text">TOTAL</p>
-                                    <p class="header-cart-text">$500.00</p>
-                                </div>
-                                <div class="header-cart-btn1">
-                                    <a href="checkout.html" class="cart-btn1-text">Checkout</a>
-                                </div>
-                                <div class="header-cart-btn1">
-                                    <a href="shopping-cart.html" class="cart-btn1-text">Go to cart</a>
-                                </div>
-                        </div>
-                    </div>
-                </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRAND-Checkout</title>
+    <link href="img/fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="scss-css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b31c835f0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-logo">
+          <a class="logo-link" href="#">
+            <img class="logo-img" src="img/logo.png" alt="logo" />
+            BRAN<span class="pink">D</span>
+          </a>
+        </div>
+        <section class="header-browse-search">
+          <h2 class="hidden">section header browse search</h2>
+          <section class="browse">
+            <h2 class="hidden">section browse</h2>
+            <div class="browse-btn search">
+              Browse<span><i class="fas fa-caret-down"></i></span>
+              <div class="drop-down">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                  <li><a href="#" class="drop-menu-link">Bags/Purses</a></li>
+                  <li>
+                    <a href="#" class="drop-menu-link">Swimwear/Underwear</a>
+                  </li>
+                  <li><a href="#" class="drop-menu-link">Nightwear</a></li>
+                  <li><a href="#" class="drop-menu-link">Shoes</a></li>
+                  <li><a href="#" class="drop-menu-link">Beauty</a></li>
+                </ol>
+                <h3 class="drop-title">Men</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Tees/Tank</a></li>
+                  <li><a href="#" class="drop-menu-link">tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Shirts/Polos </a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters</a></li>
+                  <li>
+                    <a href="#" class="drop-menu-link">Sweatshirts/Hoodies</a>
+                  </li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/vests</a></li>
+                </ol>
+              </div>
             </div>
-        </header>
-        <nav class="main-nav">
-            <div class="container menu-container">
-                <ul class="menu">
-                    <li><a href="index.html" class="menu-link">Home</a></li>
-                    <li class="menu-list">
-                        <a href="product.html" class="menu-link">Man</a>
-                        <div class="mega-menu">
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <img src="img/mega_menu.jpg" alt="mega-menu" class="img-mega-menu">
-                            </div> 
-                        </div></li>  
-                    <li class="menu-list">
-                        <a href="single-page.html" class="menu-link">Women</a>
-                        <div class="mega-menu">
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <img src="img/mega_menu.jpg" alt="mega-menu" class="img-mega-menu">
-                            </div> 
-                        </div></li>
-                    <li class="menu-list">
-                        <a href="#" class="menu-link">Kids</a>
-                        <div class="mega-menu">
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <img src="img/mega_menu.jpg" alt="mega-menu" class="img-mega-menu">
-                            </div> 
-                        </div></li>
-                    <li class="menu-list">
-                        <a href="#" class="menu-link">Accoseriese</a>
-                        <div class="mega-menu">
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <img src="img/mega_menu.jpg" alt="mega-menu" class="img-mega-menu">
-                            </div> 
-                        </div></li>
-                    <li class="menu-list">
-                        <a href="#" class="menu-link">Featured</a>
-                        <div class="mega-menu">
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <img src="img/mega_menu.jpg" alt="mega-menu" class="img-mega-menu">
-                            </div> 
-                        </div></li>
-                    <li class="menu-list">
-                        <a href="#" class="menu-link">Hot Deals</a>
-                        <div class="mega-menu">
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                    <li><a href="#" class="drop-menu-link">Blazers</a></li>
-                                    <li><a href="#" class="drop-menu-link">Denim</a></li>
-                                    <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
-                                    <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
-                                    <li><a href="#" class="drop-menu-link">Accessories</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                </ol>
-                            </div>
-                            <div class="drop-mega-menu"> 
-                                <h3 class="drop-title">Women</h3>
-                                <ol class="drop-list-menu">
-                                    <li><a href="#" class="drop-menu-link">Dresses</a></li>
-                                    <li><a href="#" class="drop-menu-link">Tops</a></li>
-                                    <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
-                                    <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
-                                </ol>
-                                <img src="img/mega_menu.jpg" alt="mega-menu" class="img-mega-menu">
-                            </div> 
-                        </div></li>
-                </ul>
-                     
-            </div>
-        </nav>        <h1 class="hidden">Welcome to Brand shop Checkout</h1>
-        <section class="arrivals">
-            <h2 class="hidden">section arrivals</h2>
-            <div class="container arrivals-container">
-                <h3 class="text-arrivals">New Arrivals</h3>
-                <div class="breadcrumbs-arrivals">
-                    <ul class="menu-breadcrumbs">
-                        <li><a href="index.html" class="info-menu-breadcrumbs">Home /</a></li>
-                        <li><a href="#" class="info-menu-breadcrumbs">Men /</a></li>
-                        <li><a href="product.html" class="info-menu-breadcrumbs-pink">New Arrivals</a></li>
-                    </ul>
-                </div>
-            </div>
+          </section>
+          <section class="header-search">
+            <h2 class="hidden">section header search</h2>
+            <form action="#" class="search">
+              <input
+                class="search-field"
+                type="text"
+                placeholder="Search for Item..."
+              />
+              <button type="button" class="search-btn">
+                <img src="img/search.png" alt="search" />
+              </button>
+            </form>
+          </section>
         </section>
-        <main>
-            <div class="container checkout-container">
-                <section class="checkout-shipping-adress">
-                    <h2 class="hidden">section shipping adress</h2>
-                    <div class="checkout-details">
-                        <details class="checkout-list" open>
-                            <summary class="checkout-title">01.&nbsp; Shipping Adress
-                            </summary>
-                            <div class="checkout-blocks">
-                                <div class="regist">
-                                    <h4 class="regist-text-header">Check as a guest or register</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <div class="checkout-register">
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input">
-                                            <span class="checkout-guest-text">checkout as guest</span>
-                                        </div>
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input" checked>
-                                            <span class="checkout-guest-text">register</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="regist-text-header">register and save time!</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <p class="regist-text"><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Fast and easy checkout   
-                                    <br><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Easy access to your order history and status</p>
-                                    <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Continue</span></button>
-                                </div>
-                                <div class="regist-entrance">
-                                    <h4 class="regist-text-header">Already registed?</h4>
-                                    <p class="regist-text">Please log in below</p>
-                                    <form action="#" class="regist-form">
-                                        <h4 class="regist-text-form">EMAIL ADDRESS<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="email">
-                                        <h4 class="regist-text-form">PASSWORD<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="password">
-                                        <p class="regist-text-red"><span class="regist-text-form-span">*</span>Required Fileds</p>
-                                        <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Log in</span></button> 
-                                        <a href="#" class="regist-forgot-password">Forgot Password ?</a> 
-                                    </form>
-                                </div>
-                            </div> 
-                      </details>
-                    </div>  
-                </section>
-                <section class="checkout-billing-information">
-                    <h2 class="hidden">section billing information</h2>
-                    <div class="checkout-details">
-                        <details class="checkout-list">
-                            <summary class="checkout-title">02.&nbsp; BILLING INFORMATION
-                            </summary>
-                            <div class="checkout-blocks">
-                                <div class="regist">
-                                    <h4 class="regist-text-header">Check as a guest or register</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <div class="checkout-register">
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input">
-                                            <span class="checkout-guest-text">checkout as guest</span>
-                                        </div>
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input" checked>
-                                            <span class="checkout-guest-text">register</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="regist-text-header">register and save time!</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <p class="regist-text"><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Fast and easy checkout   
-                                    <br><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Easy access to your order history and status</p>
-                                    <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Continue</span></button>
-                                </div>
-                                 
-                                <div class="regist-entrance">
-                                    <h4 class="regist-text-header">Already registed?</h4>
-                                    <p class="regist-text">Please log in below</p>
-                                    <form action="#" class="regist-form">
-                                        <h4 class="regist-text-form">EMAIL ADDRESS<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="email">
-                                        <h4 class="regist-text-form">PASSWORD<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="password">
-                                        <p class="regist-text-red"><span class="regist-text-form-span">*</span>Required Fileds</p>
-                                        <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Log in</span></button> 
-                                        <a href="#" class="regist-forgot-password">Forgot Password ?</a> 
-                                    </form>
-                                 </div>
-                            </div>        
-                        </details>
-                    </div>
-                </section>
-                <section class="checkout-shipping-information">
-                    <h2 class="hidden">section shipping information</h2>
-                    <div class="checkout-details">
-                        <details class="checkout-list">
-                            <summary class="checkout-title">03.&nbsp; SHIPPING INFORMATION
-                            </summary>
-                            <div class="checkout-blocks">
-                                <div class="regist">
-                                    <h4 class="regist-text-header">Check as a guest or register</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <div class="checkout-register">
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input">
-                                            <span class="checkout-guest-text">checkout as guest</span>
-                                        </div>
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input" checked>
-                                            <span class="checkout-guest-text">register</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="regist-text-header">register and save time!</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <p class="regist-text"><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Fast and easy checkout   
-                                    <br><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Easy access to your order history and status</p>
-                                    <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Continue</span></button>
-                                </div>
-                                 
-                                <div class="regist-entrance">
-                                    <h4 class="regist-text-header">Already registed?</h4>
-                                    <p class="regist-text">Please log in below</p>
-                                    <form action="#" class="regist-form">
-                                        <h4 class="regist-text-form">EMAIL ADDRESS<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="email">
-                                        <h4 class="regist-text-form">PASSWORD<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="password">
-                                        <p class="regist-text-red"><span class="regist-text-form-span">*</span>Required Fileds</p>
-                                        <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Log in</span></button> 
-                                        <a href="#" class="regist-forgot-password">Forgot Password ?</a> 
-                                    </form>
-                                 </div>
-                            </div>        
-                        </details>
-                    </div>
-                </section>
-                <section class="checkout-shipping-method">
-                    <h2 class="hidden">section shipping method</h2>
-                    <div class="checkout-details">
-                        <details class="checkout-list">
-                            <summary class="checkout-title">04.&nbsp; SHIPPING METHOD
-                            </summary>
-                            <div class="checkout-blocks">
-                                <div class="regist">
-                                    <h4 class="regist-text-header">Check as a guest or register</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <div class="checkout-register">
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input">
-                                            <span class="checkout-guest-text">checkout as guest</span>
-                                        </div>
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input" checked>
-                                            <span class="checkout-guest-text">register</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="regist-text-header">register and save time!</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <p class="regist-text"><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Fast and easy checkout   
-                                    <br><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Easy access to your order history and status</p>
-                                    <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Continue</span></button>
-                                </div>
-                                 
-                                <div class="regist-entrance">
-                                    <h4 class="regist-text-header">Already registed?</h4>
-                                    <p class="regist-text">Please log in below</p>
-                                    <form action="#" class="regist-form">
-                                        <h4 class="regist-text-form">EMAIL ADDRESS<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="email">
-                                        <h4 class="regist-text-form">PASSWORD<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="password">
-                                        <p class="regist-text-red"><span class="regist-text-form-span">*</span>Required Fileds</p>
-                                        <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Log in</span></button> 
-                                        <a href="#" class="regist-forgot-password">Forgot Password ?</a> 
-                                    </form>
-                                 </div>
-                            </div>        
-                        </details>
-                    </div>
-                </section>
-                <section class="checkout-payment-method">
-                    <h2 class="hidden">section payment method</h2>
-                    <div class="checkout-details">
-                        <details class="checkout-list">
-                            <summary class="checkout-title">05.&nbsp; PAYMENT METHOD
-                            </summary>
-                            <div class="checkout-blocks">
-                                <div class="regist">
-                                    <h4 class="regist-text-header">Check as a guest or register</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <div class="checkout-register">
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input">
-                                            <span class="checkout-guest-text">checkout as guest</span>
-                                        </div>
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input" checked>
-                                            <span class="checkout-guest-text">register</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="regist-text-header">register and save time!</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <p class="regist-text"><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Fast and easy checkout   
-                                    <br><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Easy access to your order history and status</p>
-                                    <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Continue</span></button>
-                                </div>
-                                 
-                                <div class="regist-entrance">
-                                    <h4 class="regist-text-header">Already registed?</h4>
-                                    <p class="regist-text">Please log in below</p>
-                                    <form action="#" class="regist-form">
-                                        <h4 class="regist-text-form">EMAIL ADDRESS<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="email">
-                                        <h4 class="regist-text-form">PASSWORD<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="password">
-                                        <p class="regist-text-red"><span class="regist-text-form-span">*</span>Required Fileds</p>
-                                        <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Log in</span></button> 
-                                        <a href="#" class="regist-forgot-password">Forgot Password ?</a> 
-                                    </form>
-                                 </div>
-                            </div>        
-                        </details>
-                    </div>
-                </section>
-                <section class="checkout-order-review">
-                    <h2 class="hidden">section order review</h2>
-                    <div class="checkout-details">
-                        <details class="checkout-list">
-                            <summary class="checkout-title">06.&nbsp; ORDER REVIEW
-                            </summary>
-                            <div class="checkout-blocks">
-                                <div class="regist">
-                                    <h4 class="regist-text-header">Check as a guest or register</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <div class="checkout-register">
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input">
-                                            <span class="checkout-guest-text">checkout as guest</span>
-                                        </div>
-                                        <div>
-                                            <input type="radio" name="register-radio" class="checkout-guest-input" checked>
-                                            <span class="checkout-guest-text">register</span>
-                                        </div>
-                                    </div>
-                                    <h4 class="regist-text-header">register and save time!</h4>
-                                    <p class="regist-text">Register with us for future convenience</p>
-                                    <p class="regist-text"><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Fast and easy checkout   
-                                    <br><span class="regist-text-span"><i class="fas fa-angle-double-right"></i></span>Easy access to your order history and status</p>
-                                    <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Continue</span></button>
-                                </div>
-                                 
-                                <div class="regist-entrance">
-                                    <h4 class="regist-text-header">Already registed?</h4>
-                                    <p class="regist-text">Please log in below</p>
-                                    <form action="#" class="regist-form">
-                                        <h4 class="regist-text-form">EMAIL ADDRESS<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="email">
-                                        <h4 class="regist-text-form">PASSWORD<span class="regist-text-form-span">*</span></h4>
-                                        <input class="regist-form-input" type="password">
-                                        <p class="regist-text-red"><span class="regist-text-form-span">*</span>Required Fileds</p>
-                                        <button type="submit" class="regist-form-btn"><span class="regist-form-btn-text">Log in</span></button> 
-                                        <a href="#" class="regist-forgot-password">Forgot Password ?</a> 
-                                    </form>
-                                 </div>
-                            </div>        
-                        </details>
-                    </div>
-                </section>
-            </div>    
-        </main>
-            
-            <div class="feedback">
-                <div class="container feedback-container">
-                    <section class="reviews">
-                        <h3 class="hidden">section reviews</h3>
-                        <div class="reviews-box">
-                            <div class="reviews-text">
-                                <img src="img/review1.png" alt="review1" class="img-reviews">
-                                <p class="text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<br> a pulvinar purus condimentum a. Aliquam condimentum<br> mattis neque sed pretium”</p>
-                                <div class="reviews-text-author">
-                                    <p class="reviews-text text-pink">Bin Burhan</p>
-                                    <p class="text-author">Dhaka, Bd</p>
-                                </div>
-                                <div class="reviews-text-circle">
-                                    <a href="#" class="circle"></a><a href="#" class="circle"></a><a href="#" class="circle"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="subscribe">
-                        <h3 class="hidden">section subscribe</h3>
-                        <div class="subscribe-text">
-                            <h2 class="text-h2">Subscribe</h2>
-                            <p class="subscribe-text-message">FOR OUR NEWLETTER AND PROMOTION</p>
-                        </div>
-                        <div class="message">
-                            <form action="#" class="message-subscribe">
-                                <input class="message-field" type="email" placeholder="Enter Your Email">
-                            </form>
-                            <button class="message-btn"><span class="message-btn-text">Subscribe</span></button>
-                        </div>
-                    </section>
+        <section class="login">
+          <h2 class="hidden">section login</h2>
+          <div class="header-href-cart">
+            <a href="shopping-cart.html" class="header-href-cart-img"
+              ><img src="img/cart.png" alt="cart"
+            /></a>
+            <button type="button" class="in-cart">
+              <span class="in-cart-number">2</span>
+            </button>
+          </div>
+        </section>
+        <section class="account">
+          <h2 class="hidden">section account</h2>
+          <span class="account-text">My Account</span
+          ><i class="fas1 fas fa-caret-down"></i>
+          <div class="header-cart-product">
+            <div class="cart-product">
+              <div class="header-cart">
+                <a href="#"
+                  ><img
+                    src="img/header_cart1.jpg"
+                    alt="header-cart"
+                    class="img-header-cart"
+                /></a>
+                <div class="header-cart-shopping">
+                  <h3 class="header-cart-product-name">Rebox Zane</h3>
+                  <div class="header-fas-fa-start">
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star-half-alt star"></i>
+                  </div>
+                  <p class="header-cart-text-pink">
+                    1<span class="span-p"> x </span>$250
+                  </p>
                 </div>
+                <button
+                  type="button"
+                  title="header-cart"
+                  class="header-cart-btn"
+                >
+                  <span class="span-delete-cart"
+                    ><i class="fa fa-times-circle"></i
+                  ></span>
+                </button>
+              </div>
+              <div class="header-cart">
+                <a href="#"
+                  ><img
+                    src="img/header_cart2.png"
+                    alt="header-cart2"
+                    class="img-header-cart"
+                /></a>
+                <div class="header-cart-shopping">
+                  <h3 class="header-cart-product-name">Rebox Zane</h3>
+                  <div class="header-fas-fa-start">
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star star"></i>
+                    <i class="fas fa-star-half-alt star"></i>
+                  </div>
+                  <p class="header-cart-text-pink">
+                    1<span class="span-p"> x </span>$250
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  title="header-cart-shopping"
+                  class="header-cart-btn"
+                >
+                  <span class="span-delete-cart"
+                    ><i class="fa fa-times-circle"></i
+                  ></span>
+                </button>
+              </div>
+              <div class="header-cart-total">
+                <p class="header-cart-text">TOTAL</p>
+                <p class="header-cart-text">$500.00</p>
+              </div>
+              <div class="header-cart-btn1">
+                <a href="checkout.html" class="cart-btn1-text">Checkout</a>
+              </div>
+              <div class="header-cart-btn1">
+                <a href="shopping-cart.html" class="cart-btn1-text"
+                  >Go to cart</a
+                >
+              </div>
             </div>
-            <footer class="footer">
-                <section class="footer-top">
-                    <h2 class="hidden">section footer-top</h2>
-                    <div class="container footer-container-top">
-                        <div class="footer-top-menu">
-                            <div class="description">
-                                <a class="logo-link" href="index.html">
-                                    <img class="logo-img" src="img/logo.png" alt="logo">
-                                    BRAN<span class="pink">D</span>
-                                </a>
-                                <p class="footer-top-text">Objectively transition extensive data rather than cross functional<br> solutions. Monotonectally syndicate multidisciplinary materials<br> before go forward benefits. Intrinsicly syndicate an expanded array<br> of processes and cross-unit partnerships. <br><br>Efficiently plagiarize 24/365 action items and focused infomediaries. <br>Distinctively seize superior initiatives for wireless technologies.<br> Dynamically optimize.</p>
-                            </div>
-                            <nav class="company">
-                                <ul class="footer-menu">
-                                    <li>
-                                        <p class="footer-text-pink ">COMPANY</p>
-                                    </li>
-                                    <li><a href="index.html" class="footer-menu-link">Home</a></li>
-                                    <li><a href="#" class="footer-menu-link">Shop</a></li>
-                                    <li><a href="#" class="footer-menu-link">About</a></li>
-                                    <li><a href="#" class="footer-menu-link">How It Works</a></li>
-                                    <li><a href="#" class="footer-menu-link">Contact</a></li>
-                                </ul>
-                            </nav>
-                            <nav class="information">
-                                <ul class="footer-menu">
-                                    <li>
-                                        <p class="footer-text-pink ">INFORMATION</p>
-                                    </li>
-                                    <li><a href="#" class="footer-menu-link">Tearms & Condition</a></li>
-                                    <li><a href="#" class="footer-menu-link">Privacy Policy</a></li>
-                                    <li><a href="#" class="footer-menu-link">How to Buy</a></li>
-                                    <li><a href="#" class="footer-menu-link">How to Sell</a></li>
-                                    <li><a href="#" class="footer-menu-link">Promotion</a></li>
-                                </ul>
-                            </nav>
-                            <nav class="shop-category">
-                                <ul class="footer-menu">
-                                    <li>
-                                        <p class="footer-text-pink ">SHOP CATEGORY</p>
-                                    </li>
-                                    <li><a href="#" class="footer-menu-link">Men</a></li>
-                                    <li><a href="#" class="footer-menu-link">Women</a></li>
-                                    <li><a href="#" class="footer-menu-link">Child</a></li>
-                                    <li><a href="#" class="footer-menu-link">Apparel</a></li>
-                                    <li><a href="#" class="footer-menu-link">Brows All</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+          </div>
+        </section>
+      </div>
+    </header>
+    <nav class="main-nav">
+      <div class="container menu-container">
+        <ul class="menu">
+          <li><a href="index.html" class="menu-link">Home</a></li>
+          <li class="menu-list">
+            <a href="product.html" class="menu-link">Man</a>
+            <div class="mega-menu">
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <img
+                  src="img/mega_menu.jpg"
+                  alt="mega-menu"
+                  class="img-mega-menu"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="menu-list">
+            <a href="single-page.html" class="menu-link">Women</a>
+            <div class="mega-menu">
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <img
+                  src="img/mega_menu.jpg"
+                  alt="mega-menu"
+                  class="img-mega-menu"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="menu-list">
+            <a href="#" class="menu-link">Kids</a>
+            <div class="mega-menu">
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <img
+                  src="img/mega_menu.jpg"
+                  alt="mega-menu"
+                  class="img-mega-menu"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="menu-list">
+            <a href="#" class="menu-link">Accoseriese</a>
+            <div class="mega-menu">
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <img
+                  src="img/mega_menu.jpg"
+                  alt="mega-menu"
+                  class="img-mega-menu"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="menu-list">
+            <a href="#" class="menu-link">Featured</a>
+            <div class="mega-menu">
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <img
+                  src="img/mega_menu.jpg"
+                  alt="mega-menu"
+                  class="img-mega-menu"
+                />
+              </div>
+            </div>
+          </li>
+          <li class="menu-list">
+            <a href="#" class="menu-link">Hot Deals</a>
+            <div class="mega-menu">
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                  <li><a href="#" class="drop-menu-link">Blazers</a></li>
+                  <li><a href="#" class="drop-menu-link">Denim</a></li>
+                  <li><a href="#" class="drop-menu-link">Leggings/Pants</a></li>
+                  <li><a href="#" class="drop-menu-link">Skirts/Shorts</a></li>
+                  <li><a href="#" class="drop-menu-link">Accessories</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                </ol>
+              </div>
+              <div class="drop-mega-menu">
+                <h3 class="drop-title">Women</h3>
+                <ol class="drop-list-menu">
+                  <li><a href="#" class="drop-menu-link">Dresses</a></li>
+                  <li><a href="#" class="drop-menu-link">Tops</a></li>
+                  <li><a href="#" class="drop-menu-link">Sweaters/Knits</a></li>
+                  <li><a href="#" class="drop-menu-link">Jackets/Coats</a></li>
+                </ol>
+                <img
+                  src="img/mega_menu.jpg"
+                  alt="mega-menu"
+                  class="img-mega-menu"
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 class="hidden">Welcome to Brand shop Checkout</h1>
+    <section class="arrivals">
+      <h2 class="hidden">section arrivals</h2>
+      <div class="container arrivals-container">
+        <h3 class="text-arrivals">New Arrivals</h3>
+        <div class="breadcrumbs-arrivals">
+          <ul class="menu-breadcrumbs">
+            <li>
+              <a href="index.html" class="info-menu-breadcrumbs">Home /</a>
+            </li>
+            <li><a href="#" class="info-menu-breadcrumbs">Men /</a></li>
+            <li>
+              <a href="product.html" class="info-menu-breadcrumbs-pink"
+                >New Arrivals</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <main>
+      <div class="container checkout-container">
+        <section class="checkout-shipping-adress">
+          <h2 class="hidden">section shipping adress</h2>
+          <div class="checkout-details">
+            <details class="checkout-list" open>
+              <summary class="checkout-title">
+                01.&nbsp; Shipping Adress
+              </summary>
+              <div class="checkout-blocks">
+                <div class="regist">
+                  <h4 class="regist-text-header">
+                    Check as a guest or register
+                  </h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <div class="checkout-register">
+                    <div>
+                      <input
+                        type="radio"
+                        title="input-checkout-register"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                      />
+                      <span class="checkout-guest-text">checkout as guest</span>
                     </div>
-                </section>
-                <section class="footer-bottom">
-                    <h2 class="hidden">section footer-bottom</h2>
-                    <div class="container footer-container-bottom">
-                        <div class="footer-text">
-                            <b>&copy;2020 Brand All Rights Reserved.</b>
-                        </div>
-                        <div class="socials">
-                            <a href="#" class="icon" target="_blank"><i class="fab fa-facebook-f facebook"></i></a>
-                            <a href="#" class="icon" target="_blank"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" class="icon" target="_blank"><i class="fab fa-pinterest-p"></i></a>
-                            <a href="#" class="icon" target="_blank"><i class="fab fa-google-plus-g"></i></a>
-                        </div>
+                    <div>
+                      <input
+                        type="radio"
+                        title="input-checkout-register"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                        checked
+                      />
+                      <span class="checkout-guest-text">register</span>
                     </div>
-                </section>
-            </footer>
-        </body>
-        
-        </html>        
+                  </div>
+                  <h4 class="regist-text-header">register and save time!</h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <p class="regist-text">
+                    <span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Fast and easy checkout <br /><span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Easy access to your order history and status
+                  </p>
+                  <button type="submit" class="regist-form-btn">
+                    <span class="regist-form-btn-text">Continue</span>
+                  </button>
+                </div>
+                <div class="regist-entrance">
+                  <h4 class="regist-text-header">Already registed?</h4>
+                  <p class="regist-text">Please log in below</p>
+                  <form action="#" class="regist-form">
+                    <h4 class="regist-text-form">
+                      EMAIL ADDRESS<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input
+                      class="regist-form-input"
+                      type="email"
+                      title="input-regist-form"
+                    />
+                    <h4 class="regist-text-form">
+                      PASSWORD<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input
+                      class="regist-form-input"
+                      type="password"
+                      title="input-regist-form"
+                    />
+                    <p class="regist-text-red">
+                      <span class="regist-text-form-span">*</span>Required
+                      Fileds
+                    </p>
+                    <button type="submit" class="regist-form-btn">
+                      <span class="regist-form-btn-text">Log in</span>
+                    </button>
+                    <a href="#" class="regist-forgot-password"
+                      >Forgot Password ?</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+        <section class="checkout-billing-information">
+          <h2 class="hidden">section billing information</h2>
+          <div class="checkout-details">
+            <details class="checkout-list">
+              <summary class="checkout-title">
+                02.&nbsp; BILLING INFORMATION
+              </summary>
+              <div class="checkout-blocks">
+                <div class="regist">
+                  <h4 class="regist-text-header">
+                    Check as a guest or register
+                  </h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <div class="checkout-register">
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                      />
+                      <span class="checkout-guest-text">checkout as guest</span>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                        checked
+                      />
+                      <span class="checkout-guest-text">register</span>
+                    </div>
+                  </div>
+                  <h4 class="regist-text-header">register and save time!</h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <p class="regist-text">
+                    <span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Fast and easy checkout <br /><span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Easy access to your order history and status
+                  </p>
+                  <button type="submit" class="regist-form-btn">
+                    <span class="regist-form-btn-text">Continue</span>
+                  </button>
+                </div>
+
+                <div class="regist-entrance">
+                  <h4 class="regist-text-header">Already registed?</h4>
+                  <p class="regist-text">Please log in below</p>
+                  <form action="#" class="regist-form">
+                    <h4 class="regist-text-form">
+                      EMAIL ADDRESS<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="email" />
+                    <h4 class="regist-text-form">
+                      PASSWORD<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="password" />
+                    <p class="regist-text-red">
+                      <span class="regist-text-form-span">*</span>Required
+                      Fileds
+                    </p>
+                    <button type="submit" class="regist-form-btn">
+                      <span class="regist-form-btn-text">Log in</span>
+                    </button>
+                    <a href="#" class="regist-forgot-password"
+                      >Forgot Password ?</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+        <section class="checkout-shipping-information">
+          <h2 class="hidden">section shipping information</h2>
+          <div class="checkout-details">
+            <details class="checkout-list">
+              <summary class="checkout-title">
+                03.&nbsp; SHIPPING INFORMATION
+              </summary>
+              <div class="checkout-blocks">
+                <div class="regist">
+                  <h4 class="regist-text-header">
+                    Check as a guest or register
+                  </h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <div class="checkout-register">
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                      />
+                      <span class="checkout-guest-text">checkout as guest</span>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                        checked
+                      />
+                      <span class="checkout-guest-text">register</span>
+                    </div>
+                  </div>
+                  <h4 class="regist-text-header">register and save time!</h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <p class="regist-text">
+                    <span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Fast and easy checkout <br /><span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Easy access to your order history and status
+                  </p>
+                  <button type="submit" class="regist-form-btn">
+                    <span class="regist-form-btn-text">Continue</span>
+                  </button>
+                </div>
+
+                <div class="regist-entrance">
+                  <h4 class="regist-text-header">Already registed?</h4>
+                  <p class="regist-text">Please log in below</p>
+                  <form action="#" class="regist-form">
+                    <h4 class="regist-text-form">
+                      EMAIL ADDRESS<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="email" />
+                    <h4 class="regist-text-form">
+                      PASSWORD<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="password" />
+                    <p class="regist-text-red">
+                      <span class="regist-text-form-span">*</span>Required
+                      Fileds
+                    </p>
+                    <button type="submit" class="regist-form-btn">
+                      <span class="regist-form-btn-text">Log in</span>
+                    </button>
+                    <a href="#" class="regist-forgot-password"
+                      >Forgot Password ?</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+        <section class="checkout-shipping-method">
+          <h2 class="hidden">section shipping method</h2>
+          <div class="checkout-details">
+            <details class="checkout-list">
+              <summary class="checkout-title">
+                04.&nbsp; SHIPPING METHOD
+              </summary>
+              <div class="checkout-blocks">
+                <div class="regist">
+                  <h4 class="regist-text-header">
+                    Check as a guest or register
+                  </h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <div class="checkout-register">
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                      />
+                      <span class="checkout-guest-text">checkout as guest</span>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                        checked
+                      />
+                      <span class="checkout-guest-text">register</span>
+                    </div>
+                  </div>
+                  <h4 class="regist-text-header">register and save time!</h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <p class="regist-text">
+                    <span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Fast and easy checkout <br /><span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Easy access to your order history and status
+                  </p>
+                  <button type="submit" class="regist-form-btn">
+                    <span class="regist-form-btn-text">Continue</span>
+                  </button>
+                </div>
+
+                <div class="regist-entrance">
+                  <h4 class="regist-text-header">Already registed?</h4>
+                  <p class="regist-text">Please log in below</p>
+                  <form action="#" class="regist-form">
+                    <h4 class="regist-text-form">
+                      EMAIL ADDRESS<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="email" />
+                    <h4 class="regist-text-form">
+                      PASSWORD<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="password" />
+                    <p class="regist-text-red">
+                      <span class="regist-text-form-span">*</span>Required
+                      Fileds
+                    </p>
+                    <button type="submit" class="regist-form-btn">
+                      <span class="regist-form-btn-text">Log in</span>
+                    </button>
+                    <a href="#" class="regist-forgot-password"
+                      >Forgot Password ?</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+        <section class="checkout-payment-method">
+          <h2 class="hidden">section payment method</h2>
+          <div class="checkout-details">
+            <details class="checkout-list">
+              <summary class="checkout-title">05.&nbsp; PAYMENT METHOD</summary>
+              <div class="checkout-blocks">
+                <div class="regist">
+                  <h4 class="regist-text-header">
+                    Check as a guest or register
+                  </h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <div class="checkout-register">
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                      />
+                      <span class="checkout-guest-text">checkout as guest</span>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                        checked
+                      />
+                      <span class="checkout-guest-text">register</span>
+                    </div>
+                  </div>
+                  <h4 class="regist-text-header">register and save time!</h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <p class="regist-text">
+                    <span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Fast and easy checkout <br /><span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Easy access to your order history and status
+                  </p>
+                  <button type="submit" class="regist-form-btn">
+                    <span class="regist-form-btn-text">Continue</span>
+                  </button>
+                </div>
+
+                <div class="regist-entrance">
+                  <h4 class="regist-text-header">Already registed?</h4>
+                  <p class="regist-text">Please log in below</p>
+                  <form action="#" class="regist-form">
+                    <h4 class="regist-text-form">
+                      EMAIL ADDRESS<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="email" />
+                    <h4 class="regist-text-form">
+                      PASSWORD<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="password" />
+                    <p class="regist-text-red">
+                      <span class="regist-text-form-span">*</span>Required
+                      Fileds
+                    </p>
+                    <button type="submit" class="regist-form-btn">
+                      <span class="regist-form-btn-text">Log in</span>
+                    </button>
+                    <a href="#" class="regist-forgot-password"
+                      >Forgot Password ?</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+        <section class="checkout-order-review">
+          <h2 class="hidden">section order review</h2>
+          <div class="checkout-details">
+            <details class="checkout-list">
+              <summary class="checkout-title">06.&nbsp; ORDER REVIEW</summary>
+              <div class="checkout-blocks">
+                <div class="regist">
+                  <h4 class="regist-text-header">
+                    Check as a guest or register
+                  </h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <div class="checkout-register">
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                      />
+                      <span class="checkout-guest-text">checkout as guest</span>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        name="register-radio"
+                        class="checkout-guest-input"
+                        checked
+                      />
+                      <span class="checkout-guest-text">register</span>
+                    </div>
+                  </div>
+                  <h4 class="regist-text-header">register and save time!</h4>
+                  <p class="regist-text">
+                    Register with us for future convenience
+                  </p>
+                  <p class="regist-text">
+                    <span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Fast and easy checkout <br /><span class="regist-text-span"
+                      ><i class="fas fa-angle-double-right"></i></span
+                    >Easy access to your order history and status
+                  </p>
+                  <button type="submit" class="regist-form-btn">
+                    <span class="regist-form-btn-text">Continue</span>
+                  </button>
+                </div>
+
+                <div class="regist-entrance">
+                  <h4 class="regist-text-header">Already registed?</h4>
+                  <p class="regist-text">Please log in below</p>
+                  <form action="#" class="regist-form">
+                    <h4 class="regist-text-form">
+                      EMAIL ADDRESS<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="email" />
+                    <h4 class="regist-text-form">
+                      PASSWORD<span class="regist-text-form-span">*</span>
+                    </h4>
+                    <input class="regist-form-input" type="password" />
+                    <p class="regist-text-red">
+                      <span class="regist-text-form-span">*</span>Required
+                      Fileds
+                    </p>
+                    <button type="submit" class="regist-form-btn">
+                      <span class="regist-form-btn-text">Log in</span>
+                    </button>
+                    <a href="#" class="regist-forgot-password"
+                      >Forgot Password ?</a
+                    >
+                  </form>
+                </div>
+              </div>
+            </details>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="feedback">
+      <div class="container feedback-container">
+        <section class="reviews">
+          <h3 class="hidden">section reviews</h3>
+          <div class="reviews-box">
+            <div class="reviews-text">
+              <img src="img/review1.png" alt="review1" class="img-reviews" />
+              <p class="text">
+                “Vestibulum quis porttitor dui! Quisque viverra nunc mi,<br />
+                a pulvinar purus condimentum a. Aliquam condimentum<br />
+                mattis neque sed pretium”
+              </p>
+              <div class="reviews-text-author">
+                <p class="reviews-text text-pink">Bin Burhan</p>
+                <p class="text-author">Dhaka, Bd</p>
+              </div>
+              <div class="reviews-text-circle">
+                <a href="#" class="circle" title="reviews-circle"></a>
+                <a href="#" class="circle" title="reviews-circle"></a
+                ><a href="#" class="circle" title="reviews-circle"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="subscribe">
+          <h3 class="hidden">section subscribe</h3>
+          <div class="subscribe-text">
+            <h2 class="text-h2">Subscribe</h2>
+            <p class="subscribe-text-message">
+              FOR OUR NEWLETTER AND PROMOTION
+            </p>
+          </div>
+          <div class="message">
+            <form action="#" class="message-subscribe">
+              <input
+                class="message-field"
+                type="email"
+                placeholder="Enter Your Email"
+              />
+            </form>
+            <button class="message-btn">
+              <span class="message-btn-text">Subscribe</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="footer">
+      <section class="footer-top">
+        <h2 class="hidden">section footer-top</h2>
+        <div class="container footer-container-top">
+          <div class="footer-top-menu">
+            <div class="description">
+              <a class="logo-link" href="index.html">
+                <img class="logo-img" src="img/logo.png" alt="logo" />
+                BRAN<span class="pink">D</span>
+              </a>
+              <p class="footer-top-text">
+                Objectively transition extensive data rather than cross
+                functional<br />
+                solutions. Monotonectally syndicate multidisciplinary
+                materials<br />
+                before go forward benefits. Intrinsicly syndicate an expanded
+                array<br />
+                of processes and cross-unit partnerships.
+                <br /><br />Efficiently plagiarize 24/365 action items and
+                focused infomediaries. <br />Distinctively seize superior
+                initiatives for wireless technologies.<br />
+                Dynamically optimize.
+              </p>
+            </div>
+            <nav class="company">
+              <ul class="footer-menu">
+                <li>
+                  <p class="footer-text-pink">COMPANY</p>
+                </li>
+                <li><a href="index.html" class="footer-menu-link">Home</a></li>
+                <li><a href="#" class="footer-menu-link">Shop</a></li>
+                <li><a href="#" class="footer-menu-link">About</a></li>
+                <li><a href="#" class="footer-menu-link">How It Works</a></li>
+                <li><a href="#" class="footer-menu-link">Contact</a></li>
+              </ul>
+            </nav>
+            <nav class="information">
+              <ul class="footer-menu">
+                <li>
+                  <p class="footer-text-pink">INFORMATION</p>
+                </li>
+                <li>
+                  <a href="#" class="footer-menu-link">Tearms & Condition</a>
+                </li>
+                <li><a href="#" class="footer-menu-link">Privacy Policy</a></li>
+                <li><a href="#" class="footer-menu-link">How to Buy</a></li>
+                <li><a href="#" class="footer-menu-link">How to Sell</a></li>
+                <li><a href="#" class="footer-menu-link">Promotion</a></li>
+              </ul>
+            </nav>
+            <nav class="shop-category">
+              <ul class="footer-menu">
+                <li>
+                  <p class="footer-text-pink">SHOP CATEGORY</p>
+                </li>
+                <li><a href="#" class="footer-menu-link">Men</a></li>
+                <li><a href="#" class="footer-menu-link">Women</a></li>
+                <li><a href="#" class="footer-menu-link">Child</a></li>
+                <li><a href="#" class="footer-menu-link">Apparel</a></li>
+                <li><a href="#" class="footer-menu-link">Brows All</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <section class="footer-bottom">
+        <h2 class="hidden">section footer-bottom</h2>
+        <div class="container footer-container-bottom">
+          <div class="footer-text">
+            <b>&copy;2020 Brand All Rights Reserved.</b>
+          </div>
+          <div class="socials">
+            <a href="#" class="icon" target="_blank" title="socials"
+              ><i class="fab fa-facebook-f facebook"></i
+            ></a>
+            <a href="#" class="icon" target="_blank" title="socials"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="icon" target="_blank" title="socials"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="icon" target="_blank" title="socials"
+              ><i class="fab fa-pinterest-p"></i
+            ></a>
+            <a href="#" class="icon" target="_blank" title="socials"
+              ><i class="fab fa-google-plus-g"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
